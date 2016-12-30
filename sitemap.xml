@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/tech_book_walk/</loc>
+    <lastmod>2016-11-27T22:08:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/publishing_hugo_blog_by_github_pages/</loc>
+    <lastmod>2016-10-28T17:52:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/javascript-array-methods/</loc>
+    <lastmod>2016-10-10T17:09:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/about-queryselector-and-queryselectorall/</loc>
+    <lastmod>2016-10-02T17:03:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/blog-creating-at-hugo/</loc>
+    <lastmod>2016-08-30T16:47:18+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/about-moment-js/</loc>
+    <lastmod>2016-06-25T16:45:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/about-x-ua-compatible/</loc>
+    <lastmod>2016-05-28T16:44:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/hello-world/</loc>
+    <lastmod>2016-05-22T16:41:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/post/</loc>
+    <lastmod>2016-11-27T22:08:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://38fanjia.github.com/</loc>
+    <lastmod>2016-11-27T22:08:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

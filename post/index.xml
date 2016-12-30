@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on だれも聞いていないと思って歌え</title>
+    <link>http://38fanjia.github.com/post/index.xml</link>
+    <description>Recent content in Posts on だれも聞いていないと思って歌え</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>38fanjia All rights reserved.</copyright>
+    <lastBuildDate>Sun, 27 Nov 2016 22:08:20 +0900</lastBuildDate>
+    <atom:link href="http://38fanjia.github.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>技術書の歩き方勉強会「達人プログラマー」編 に行ってきました。</title>
+      <link>http://38fanjia.github.com/post/tech_book_walk/</link>
+      <pubDate>Sun, 27 Nov 2016 22:08:20 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/tech_book_walk/</guid>
+      <description>
+
+&lt;p&gt;11月21日にSpeeさんで開催された技術書の歩き方「達人プログラマー」編に行ってきました。&lt;/p&gt;
+
+&lt;h2 id=&#34;達人プログラマー-とは&#34;&gt;『達人プログラマー』とは&lt;/h2&gt;
+
+&lt;p&gt;原著『Pragmatic Programmer, The: From Journeyman to Master』は1999年に出版され、日本では2000年に翻訳されて出版されました。&lt;br /&gt;
+しばらく絶版となっていたそうですが、今年の10月25日にオーム社から復刊されました。&lt;/p&gt;
+
+&lt;p&gt;この本は、ソフトウェア開発の名著として紹介されていることがあるため、タイトルは知っていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;企画について&#34;&gt;企画について&lt;/h2&gt;
+
+&lt;p&gt;以下、connpassからの引用です。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;概要&#34;&gt;概要&lt;/h3&gt;
+
+&lt;p&gt;オーム社さんから復刊された『新装版 達人プログラマー 職人から名匠への道』を勝手に応援する企画です。&lt;br /&gt;
+古典である『達人プログラマー』を今の私たちはどう読んだらいいか、なにを受け取れるか、自分の仕事/キャリアにどう活かしていけるのかといったことについて、お話しする場にできればと思っています。&lt;/p&gt;
+
+&lt;h3 id=&#34;こんな方におすすめ&#34;&gt;こんな方におすすめ&lt;/h3&gt;
+
+&lt;p&gt;プログラマ・ソフトウェア開発者として成長の手引きが欲しいなと感じている方&lt;br /&gt;
+会社の先輩などから技術書の古典を「読んどけ」と渡されるけれど、うまく読めなくて困っている方&lt;br /&gt;
+『達人プログラマー』、なんとなく気になっているけれど手を出せていない方&lt;br /&gt;
+『達人プログラマー』の復刊を応援/お祝いしたい方&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;『達人プログラマー』というタイトルは知っていても、古典であるというイメージと、初心者が読んでも理解できなさそう・難しそうという思いから手を出せていませんでした。&lt;br /&gt;
+また、「プログラマ・ソフトウェア開発者として成長の手引きが欲しいなと感じている方」に当てはまったため参加を決めました。&lt;/p&gt;
+
+&lt;h2 id=&#34;達人プログラマーと私-諸橋恭介&#34;&gt;達人プログラマーと私 @諸橋恭介&lt;/h2&gt;
+
+&lt;p&gt;『Rails3 レシピブック190の技』、『はじめる!Cucumber』の著者であるRubyプログラマー。&lt;br /&gt;
+初めて読んだ技術書の紹介に始まり、どういった時期にどんな本を読んでいったかを紹介していて、とても面白かったです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UNIXという考え方&lt;/li&gt;
+&lt;li&gt;プロフェッショナルの条件&lt;/li&gt;
+&lt;li&gt;ピープルウェア&lt;/li&gt;
+&lt;li&gt;人月の神話&lt;/li&gt;
+&lt;li&gt;プログラミングRuby(達人プログラマーと著者が同じ)&lt;/li&gt;
+&lt;li&gt;アジャイルサムライ&lt;/li&gt;
+&lt;li&gt;エクストリームプログラミング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、本当にたくさんの本を紹介していました。&lt;/p&gt;
+
+&lt;p&gt;初めて『達人プログラマー』を読んだときは、「こういうふうにやれたらいいな」という夢だったが、転職した先で読んだ内容を実際にやっていて感動したそうです。&lt;br /&gt;
+そうして再び読み直したとき、現実として「自動化」や「リファクタリング」をやっているかを突きつけられるようで読むのが辛かったそうです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;でもあんまり深刻に受け止めすぎないで。楽しみながらやっていこう by アジャイルサムライ
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;あなたの知識ポートフォリオについて-mochico&#34;&gt;あなたの知識ポートフォリオについて @mochico&lt;/h2&gt;
+
+&lt;p&gt;技術系同人サークルTechboosterでの執筆、DroidKaigi、技術書典の運営も行うAndroidエンジニア。&lt;br /&gt;
+『達人プログラマー』の第1章第5節「あなたの知識ポートフォリオ」についての内容でした。&lt;/p&gt;
+
+&lt;p&gt;この節には、「知識と経験は期限付きの資産」であるということ、「勉強し続けないとエンジニアとしてやっていけないよ」といった内容が書かれているそうです。&lt;br /&gt;
+そのための手段として、四半期ごとに技術書を読む、年に一度新しい言語を学ぶ、ということを併せて紹介しているそうです。年に一度新しい言語を学ぶことを勧めているのは、メインに使っている言語以外を学ぶことで他の言語との違いを知るなどの比較ができるようになる、ということだそうです。&lt;/p&gt;
+
+&lt;p&gt;ただ、技術書を一人で頭から最後まで読むのはなかなかつらいということで、読書会へ参加した経験を紹介していました。一週間に一章読んで、リモート読書会をして読んで分からなかった箇所を相談したり質問したりして「分かったつもり」を防いでいくんだそうです。&lt;br /&gt;
+技術系の読書会があることは知っていましたが、こういったメリットがあることは知りませんでした。&lt;/p&gt;
+
+&lt;p&gt;そして、読むだけではなくアウトプットをしようということで、技術系ブログ、Qiitaへの投稿、GitHubでのプログラムの公開をするといいよということが語られていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;トークセッション-高橋征義-諸橋恭介-mochico&#34;&gt;トークセッション @高橋征義、諸橋恭介、mochico&lt;/h2&gt;
+
+&lt;p&gt;上にも書きましたが、この『達人プログラマー』が書かれたのは17年前で、インターネットも当たり前ではない時代だったそうです。そういった背景があるため、内容には現代との違いが当然ある。後半部分は時代が違うために適用できない考え方もあるのだそうです。&lt;br /&gt;
+新装版ではそういった時代背景の注釈が付いているが、このことを念頭に置いて読む必要があるとのことです。&lt;/p&gt;
+
+&lt;p&gt;「技術書を全部一気に読んで十全に理解するのは難しい」&lt;br /&gt;
+「全てをきちんと理解しなくても良い」&lt;br /&gt;
+「全部が全部正しいと思わないほうが良い」&lt;/p&gt;
+
+&lt;p&gt;諸橋さんのトークに通じる話ですが、その時理解できなかったとしても、再び読み返すことで理解出来るようになったり感じ方が変わってくるので繰り返し読むことも紹介していました。&lt;/p&gt;
+
+&lt;p&gt;上記以外のことについても色々とトークをしていましたが、この内容が一番この会に参加してよかった！と思えるものでした。&lt;br /&gt;
+技術書を読む際に「理解しなきゃ！」と構えていてなかなか読み進められていなかった私にとって、これらの発言は技術書を読む心構えとして幾分気が楽になりました。&lt;/p&gt;
+
+&lt;p&gt;トークの中でも紹介され、一つ一つしっかり理解しようと読んでいた『リーダブルコード』を改めて一週間に一章ずつを目安に読んでみようと思います。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/moro/pragprog-and-me&#34;&gt;達人プログラマーとわたし/PragProg and Me // Speaker Deck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/takahashim/4f46da9dd0a897cc8b08037369783e1b&#34;&gt;「技術書の歩き方勉強会「達人プログラマー」編」で紹介した書籍リスト&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こんなにも楽しそうに技術書について語り合う場を初めて見たので、本当に良い会でした。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugoで作成したサイトをGitHub Pagesで公開する</title>
+      <link>http://38fanjia.github.com/post/publishing_hugo_blog_by_github_pages/</link>
+      <pubDate>Fri, 28 Oct 2016 17:52:20 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/publishing_hugo_blog_by_github_pages/</guid>
+      <description>
+
+&lt;h2 id=&#34;github-pages-とは&#34;&gt;GitHub Pages とは&lt;/h2&gt;
+
+&lt;p&gt;GitHub Pagesは、GitHubが提供するホスティングサービスです。&lt;br /&gt;
+公開するページは &lt;code&gt;xxx.github.io&lt;/code&gt; というURLになります(独自ドメインに変えることもできます)。&lt;/p&gt;
+
+&lt;p&gt;GitHub Pagesでは企業、団体、個人などがサイトを公開しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.facebook.com/&#34;&gt;Facebook Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.github.io/&#34;&gt;Twitter ♥ Open Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://geekwomenjapan.github.io/conference2016/&#34;&gt;Geek Women Japan 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yoshiko-pg.github.io/&#34;&gt;yoshiko-pg.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ちなみに、公開するためのファイルの種類には限界があり、HTML + CSS + JavaScript が使用できます。&lt;br /&gt;
+公開方法もリポジトリを作成して通常のGitと同様の操作を行うだけです。&lt;br /&gt;
+また、GitHub Pagesで管理するリポジトリはプライベートにできません。&lt;/p&gt;
+
+&lt;h2 id=&#34;リポジトリの作成&#34;&gt;リポジトリの作成&lt;/h2&gt;
+
+&lt;p&gt;GitHub Pages のリポジトリの作成方法に違いはほとんどなく、&lt;br /&gt;
+&lt;code&gt;Repository name: xxx.github.io&lt;/code&gt;&lt;br /&gt;
+と「github.io」を含んだリポジトリ名にするだけとなります。&lt;br /&gt;
+この時作成したリポジトリ名がサイトURLとなります。&lt;/p&gt;
+
+&lt;p&gt;また、公開向けだけではなく管理用に別途リポジトリを作成します。&lt;br /&gt;
+今回こちらはプライベート管理したい&amp;amp;GitHubの有料会員ではないためBitbucketで管理することにします。&lt;/p&gt;
+
+&lt;h3 id=&#34;リモートリポジトリを追加する&#34;&gt;リモートリポジトリを追加する&lt;/h3&gt;
+
+&lt;p&gt;公開用ではないHugoプロジェクトを、 &lt;code&gt;xxx.github.io&lt;/code&gt; とは異なるリポジトリで管理し、&lt;br /&gt;
+公開用のファイル(後述します)を &lt;code&gt;xxx.github.io&lt;/code&gt; のリポジトリで管理を行います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% cd &amp;lt;hugo site&amp;gt;
+% git remote add origin &amp;lt;repository clone url&amp;gt;
+% git submodule add git@github.com:&amp;lt;user name&amp;gt;/&amp;lt;github pages repository&amp;gt;.git public
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;公開するファイルが public ディレクトリに生成されるため、github pagesで管理するディレクトリに public を指定します。&lt;/p&gt;
+
+&lt;h2 id=&#34;サイトのビルドをし-公開用のファイルを生成する&#34;&gt;サイトのビルドをし、公開用のファイルを生成する&lt;/h2&gt;
+
+&lt;p&gt;下記のようにテーマを指定してビルドを実行すると、新たにpublicフォルダが生成されます。&lt;br /&gt;
+publicフォルダ内には、公開用のhtmlファイルなどが格納されています。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% hugo --theme=&amp;lt;theme name&amp;gt;
+% tree -L 1 public
+public
+├── 404.html
+├── css
+├── images
+├── index.html
+├── index.xml
+├── post
+└── sitemap.xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;公開する&#34;&gt;公開する&lt;/h2&gt;
+
+&lt;p&gt;管理用リポジトリと公開用リポジトリは、コミットとリモートリポジトリへのpushを別々に実行する必要があります。&lt;br /&gt;
+下記サイトなどを参考にしてシェルを作成して手順を省くのもありかなあと思います。&lt;br /&gt;
+&lt;a href=&#34;http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847&#34;&gt;Hugo + Github Pagesでブログを公開してみた - Qiita&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>配列の操作(forEach, filter, map, some, every)</title>
+      <link>http://38fanjia.github.com/post/javascript-array-methods/</link>
+      <pubDate>Mon, 10 Oct 2016 17:09:27 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/javascript-array-methods/</guid>
+      <description>
+
+&lt;h2 id=&#34;array-prototype-foreach&#34;&gt;Array.prototype.forEach()&lt;/h2&gt;
+
+&lt;p&gt;forEach は、与えられた関数 （callback）を配列に含まれる各要素に対して一度ずつ呼び出す。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 配列の要素の合計を計算する
+let sum = 0;
+const elms = [10, 20, 30, 40];
+elms.forEach(elm =&amp;gt; {
+  sum += elm;
+});
+
+console.log(sum);
+&amp;gt; 100
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/foreach&#34;&gt;Array.prototype.forEach() - JavaScript | MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;array-prototype-filter&#34;&gt;Array.prototype.filter()&lt;/h2&gt;
+
+&lt;p&gt;filter は、与えられた callback 関数を配列の各要素に対して一度ずつ呼び出し、callback が真の値( &lt;code&gt;true&lt;/code&gt; )を返したすべての値からなる新しい配列を生成する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 配列の要素が20で割り切れるものだけを抽出する
+const before = [10, 20, 30, 40];
+const after = before.filter(elm =&amp;gt; {
+  return ((elm % 20) === 0);
+});
+
+console.log(after);
+&amp;gt; [20, 40]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/filter&#34;&gt;Array.prototype.filter() - JavaScript | MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;array-prototype-map&#34;&gt;Array.prototype.map()&lt;/h2&gt;
+
+&lt;p&gt;map は、与えられた callback 関数を配列の各要素に対して順番に一度ずつ呼び出し、その結果から新しい配列を生成する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 配列の全ての要素に10を乗算した配列を返す
+const before = [10, 20, 30, 40];
+const after = before.map(elm =&amp;gt; {
+  return elm * 10;
+});
+
+console.log(before);
+&amp;gt; [10, 20, 30, 40]
+console.log(after);
+&amp;gt; [100, 200, 300, 400]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map&#34;&gt;Array.prototype.map() - JavaScript | MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;array-prototype-some&#34;&gt;Array.prototype.some()&lt;/h2&gt;
+
+&lt;p&gt;some は、与えられた callback 関数を、配列に含まれる各要素に対して一度ずつ、callback が真の値( &lt;code&gt;true&lt;/code&gt; )を返す要素が見つかるまで呼び出す。
+真の値を返す要素が見つかると、some メソッドはただちに true を返します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 要素に20以上の値があればtrueを返す
+const elms = [10, 20, 30, 40];
+const retVal = elms.some(elm =&amp;gt; {
+ console.log(elm);
+ return (elm &amp;gt;= 20);
+});
+&amp;gt; 10
+&amp;gt; 20
+
+console.log(retVal);
+&amp;gt; true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/some&#34;&gt;Array.prototype.some() - JavaScript | MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;array-prototype-every&#34;&gt;Array.prototype.every()&lt;/h2&gt;
+
+&lt;p&gt;every は、与えられた callback 関数を、配列に含まれる各要素に対して一度ずつ、callback が偽の値( &lt;code&gt;false&lt;/code&gt; )を返す要素が見つかるまで呼び出す。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 要素に一つでも20以下の値があればfalseを返す
+const elms = [40, 30, 20, 10];
+const retVal = elms.every(elm =&amp;gt; {
+ console.log(elm);
+ return (elm &amp;gt; 20);
+});
+&amp;gt; 40
+&amp;gt; 30
+&amp;gt; 20
+
+console.log(retVal);
+&amp;gt; false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/every&#34;&gt;Array.prototype.every() - JavaScript | MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;スプレッド演算子-spread-operator-について&#34;&gt;スプレッド演算子(spread operator)について&lt;/h2&gt;
+
+&lt;p&gt;上記では配列に対しての操作を例に出しましたが、スプレッド演算子を使うことで配列以外のオブジェクトも同様に処理することが可能となります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;sample&amp;quot;&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;list1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;list2&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;list3&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;// リストのテキストのみを抽出する
+const elms = document.querySelectorAll(&#39;.footer-link li&#39;);
+const retVal = [...elms].map(elm =&amp;gt; {
+ return elm.textContent;
+});
+
+console.log(retVal);
+&amp;gt; [&amp;quot;list1&amp;quot;, &amp;quot;list2&amp;quot;, &amp;quot;list3&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>querySelector と querySelectorAll</title>
+      <link>http://38fanjia.github.com/post/about-queryselector-and-queryselectorall/</link>
+      <pubDate>Sun, 02 Oct 2016 17:03:07 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/about-queryselector-and-queryselectorall/</guid>
+      <description>
+
+&lt;p&gt;改めて調べ直して整理してみた。&lt;/p&gt;
+
+&lt;h2 id=&#34;document-queryselector-と-document-queryselectorall&#34;&gt;document.querySelector と document.querySelectorAll&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;document.querySelector&lt;/code&gt; 、 &lt;code&gt;document.querySelectorAll&lt;/code&gt; とは W3C によって定義された Selectors API の仕様です。
+jQuery のようにセレクターを指定して、要素を取得できるメソッドです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;document.querySelector&lt;/code&gt; &amp;hellip; 指定された CSS セレクタにマッチする文書中の最初の要素を返す。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;document.querySelectorAll&lt;/code&gt; &amp;hellip; 指定された CSS セレクタにマッチする文書中の要素の全てのリストを返す。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;また、同様に文書中の要素を取得するメソッドとして下記があります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;document.getElementById&lt;/code&gt; &amp;hellip; 指定されたIDを持つ要素を返す。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;document.getElementsByClassName&lt;/code&gt; &amp;hellip; 指定されたクラス名を持つ要素のリストを返す。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;下記のHTML文書を例に、これらの違いについてまとめます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;news-box&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;NEWS&amp;lt;/h2&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li class=&amp;quot;news&amp;quot;&amp;gt;news title 1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;topic title 2&amp;lt;/li&amp;gt;
+    &amp;lt;li class=&amp;quot;news&amp;quot;&amp;gt;news title 3&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;articles-box&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;ARTICLES&amp;lt;/h2&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li class=&amp;quot;article&amp;quot;&amp;gt;article list 1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;article list 2&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;要素を一件だけ取得する&#34;&gt;要素を一件だけ取得する&lt;/h2&gt;
+
+&lt;p&gt;NEWSのnewsクラスではないリストの先頭の取得する場合、以下は同じ結果を取得することができます。
+&lt;code&gt;document.querySelector&lt;/code&gt; を使わない場合、一行で書く方法が分かりませんでした・・・&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const elements = document.getElementsByClassName(&#39;news-box&#39;)[0].getElementsByTagName(&#39;li&#39;);
+let elm = [];
+for(var i = 0; i &amp;lt; elements.length; i++) {
+  if(elements[i].className !== &#39;news&#39;) {
+    elm.push(elements[i]);
+  }
+}
+const element = elm[0];
+
+&amp;gt; &amp;lt;li class=&amp;quot;news&amp;quot;&amp;gt;news title 1&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelector(&#39;.news-box li:not(.news)&#39;);
+
+&amp;gt; &amp;lt;li class=&amp;quot;news&amp;quot;&amp;gt;news title 1&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ただし、単発のIDセレクタを指定する場合は &lt;code&gt;document.getElementById&lt;/code&gt; の方が高速になります。&lt;/p&gt;
+
+&lt;h2 id=&#34;要素のリストを取得する&#34;&gt;要素のリストを取得する&lt;/h2&gt;
+
+&lt;p&gt;NEWSのnewsクラスのリストを取得する場合、以下は同じ結果を取得することができます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.getElementsByClassName(&#39;news-box&#39;)[0].getElementsByClassName(&#39;news&#39;);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 1​&amp;lt;/li&amp;gt;​, &amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 3​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box .news&#39;);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 1​&amp;lt;/li&amp;gt;​, &amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 3​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;こちらも、単発のクラス名を指定する場合は &lt;code&gt;document.getElementsByClassName&lt;/code&gt; の方が高速になります。&lt;/p&gt;
+
+&lt;h3 id=&#34;引数に配列を指定する&#34;&gt;引数に配列を指定する&lt;/h3&gt;
+
+&lt;p&gt;ちなみに、引数には配列が指定可能で、
+NEWSのnewsクラスのリスト と ARTICLESのarticleクラスのリスト のみを取得することができます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll([&#39;.news-box li.news&#39;, &#39;.articles-box li:article&#39;]);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 1​&amp;lt;/li&amp;gt;​, &amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 3​&amp;lt;/li&amp;gt;​, &amp;lt;li class=​&amp;quot;article&amp;quot;&amp;gt;​article list 1​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;css-セレクタ&#34;&gt;CSS セレクタ&lt;/h2&gt;
+
+&lt;p&gt;これを知っておくと便利だなと思ったものについてまとめました。&lt;/p&gt;
+
+&lt;h3 id=&#34;not&#34;&gt;:not()&lt;/h3&gt;
+
+&lt;p&gt;上記例で使っていますが、引数で指定したセレクターの要素を除外します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box li:not(.news)&#39;);
+
+&amp;gt; [&amp;lt;li&amp;gt;​topic title 2​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;first-child-last-child&#34;&gt;:first-child, :last-child&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;:first-child&lt;/code&gt; では最初の子要素を取得します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box li:first-child&#39;);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 1​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;del&gt;ただし、 &lt;code&gt;document.querySelectorAll(&#39;.news-box li:not(.news):first-child&#39;)&lt;/code&gt; と &lt;strong&gt;擬似クラスを複数組み合わせて使用することはできません&lt;/strong&gt; 。&lt;/del&gt;(後述します。)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;:last-child&lt;/code&gt; は最後の子要素を取得できます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box li:last-child&#39;);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 3​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;nth-child-nth-last-child&#34;&gt;:nth-child(), :nth-last-child()&lt;/h3&gt;
+
+&lt;p&gt;引数には子要素のn番目、偶数(even)、奇数(odd)などが指定可能です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box li:nth-child(odd)&#39;);
+
+&amp;gt; [&amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 1​&amp;lt;/li&amp;gt;​, &amp;lt;li class=​&amp;quot;news&amp;quot;&amp;gt;​news title 3​&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;:nth-last-child()&lt;/code&gt; も同様に、最後の子要素から逆向きに数えてn番目、偶数(even)、奇数(odd)と指定できます。&lt;/p&gt;
+
+&lt;h3 id=&#34;擬似クラスを複数組み合わせる&#34;&gt;擬似クラスを複数組み合わせる&lt;/h3&gt;
+
+&lt;p&gt;上にあげた例と同じになりますが、NEWSのnewsクラスを除外したリストの先頭を取得しようと以下のように記述します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;.news-box li:not(.news):first-child&#39;);
+
+&amp;gt; []
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;しかし、取得対象の &lt;code&gt;:first-child&lt;/code&gt; が除外対象の &lt;code&gt;.news&lt;/code&gt; であるため空の配列が返ってきます。
+&lt;code&gt;:nth-child()&lt;/code&gt; を使うか &lt;code&gt;document.querySelector&lt;/code&gt; で先頭の一件のみ取得する必要があります。&lt;/p&gt;
+
+&lt;p&gt;また、下記のように &lt;code&gt;:not()&lt;/code&gt; を複数繋げて使用することも可能です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.querySelectorAll(&#39;li:not(.news):not(.article)&#39;);
+
+&amp;gt; [&amp;lt;li&amp;gt;​topic title 2​&amp;lt;/li&amp;gt;​, &amp;lt;li&amp;gt;​article list 2&amp;lt;/li&amp;gt;​]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/API/Document/querySelector&#34;&gt;document.querySelector - Web API インターフェイス | MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/API/Document/querySelectorAll&#34;&gt;document.querySelectorAll - Web API インターフェイス | MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.coolwebwindow.com/csstips/cssbasic/000243.php&#34;&gt;CSS3対応のCSSセレクタ一覧 - CSSデザインノート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hugoでブログを作る</title>
+      <link>http://38fanjia.github.com/post/blog-creating-at-hugo/</link>
+      <pubDate>Tue, 30 Aug 2016 16:47:18 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/blog-creating-at-hugo/</guid>
+      <description>
+
+&lt;p&gt;手順は下記を参考に進めました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847&#34;&gt;Hugo + Github Pagesでブログを公開してみた - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoとは&#34;&gt;Hugoとは&lt;/h2&gt;
+
+&lt;p&gt;HugoとはGo言語で作られた静的サイトジェネレータです。&lt;br /&gt;
+Markdownで記事を書き、ビルドを実行すると、あらかじめ作られたテンプレートのデザインを適用したCSSとHTMLを吐き出してサイトやブログを作ることができます。&lt;br /&gt;
+他にも同様のツールとしてRuby製のJekyllやMiddleman、Node.js製のMetalsmithなどがあります。&lt;br /&gt;
+Hugoの特徴は導入が簡単で、ビルドが早い。他のツールを使ったことはないですが、ビルドが一瞬で終わるのは確かです。&lt;/p&gt;
+
+&lt;p&gt;今回、Hugoを選んだのはブログサービスを使わずにブログを作るということに興味があったことと、少し前からGo言語を勉強していたためです。&lt;br /&gt;
+ちなみにGo言語とはGoogleにより開発されたプログラミング言語で、コンパイル型の静的型付き言語です。&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoのインストール&#34;&gt;Hugoのインストール&lt;/h2&gt;
+
+&lt;p&gt;参考: &lt;a href=&#34;http://gohugo.io&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mac&#34;&gt;Mac&lt;/h3&gt;
+
+&lt;p&gt;brewを使ってインストールを行います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+$ brew update
+$ brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;インストール場所とバージョンは以下で確認できます。&lt;br /&gt;
+現在の最新バージョンは v0.16 です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ which hugo
+$ hugo version
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;プロジェクトの作成とテーマのダウンロード&#34;&gt;プロジェクトの作成とテーマのダウンロード&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Themes Site&lt;/a&gt;&lt;br /&gt;
+全てのテーマをダウンロードすることもできますが、量が多いので既存のテーマを選んで一つダウンロードします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://themes.gohugo.io/hugo-zen/&#34;&gt;Hugo Theme: Hugo Zen&lt;/a&gt;&lt;br /&gt;
+今回はこちらの Hugo Zen を使いました。&lt;br /&gt;
+また、テーマは自分で自由に作ることも可能です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new site &amp;lt;site name&amp;gt;
+$ https://github.com/rakuishi/hugo-zen.git themes/hugo-zen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;設定&#34;&gt;設定&lt;/h2&gt;
+
+&lt;h3 id=&#34;config-tomlの設定&#34;&gt;config.tomlの設定&lt;/h3&gt;
+
+&lt;p&gt;テーマによって設定が異なるので(表示する情報が異なるため)、上記のテーマごとのページや &lt;code&gt;/themes/&amp;lt;任意のテーマ&amp;gt;/README.md&lt;/code&gt; などを参考にして設定を行います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;baseurl = &amp;quot;http://38fanjia.github.com/&amp;quot;
+languageCode = &amp;quot;ja&amp;quot;
+title = &amp;quot;だれも聞いていないと思って歌え&amp;quot;
+author = &amp;quot;38fanjia&amp;quot;
+copyright = &amp;quot;38fanjia All rights reserved.&amp;quot;
+
+[params]
+  logo      = &amp;quot;/images/icon.jpg&amp;quot;
+  twitter   = &amp;quot;https://twitter.com/38fanjia&amp;quot;
+  github    = &amp;quot;https://github.com/38fanjia/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;不要な設定はプロパティを空にしておいても問題ありません。&lt;br /&gt;
+&lt;code&gt;disqusShortname&lt;/code&gt; は記事へのコメント機能を追加するためのサービスです。google analyticsと合わせて今回は設定しません。&lt;/p&gt;
+
+&lt;p&gt;logo画像は、 &lt;code&gt;content/images/&lt;/code&gt; 下に配置しています。&lt;/p&gt;
+
+&lt;h3 id=&#34;確認&#34;&gt;確認&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; コマンドで、テーマを指定してプレビューします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% hugo server --theme=hugo-zen --buildDrafts --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;&lt;br /&gt;
+上記URLにアクセスすると、記事が何もないブログが表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://38fanjia.github.com/images/20160830/hugo-theme-applied.png&#34; alt=&#34;テーマ適用時&#34; title=&#34;テーマ適用時&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;プレビューは、変更を加えるたびに最新状態に表示を更新してくれます。&lt;br /&gt;
+また、 &lt;code&gt;control + c&lt;/code&gt; で止めることができます。&lt;/p&gt;
+
+&lt;h2 id=&#34;記事を作成する&#34;&gt;記事を作成する&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;% hugo new post/hello-world.md -f ./themes/hugo-zen/archetypes/default.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-f でfrontmatterのテンプレートを指定して記事を作成します。&lt;br /&gt;
+frontmatterとはTOMLやYAMLなどで作成されたフォーマットのことで、自動的に必要なプロパティを設定して記事ファイルを生成してくれます。&lt;/p&gt;
+
+&lt;p&gt;今回の場合は下記のように生成されるので、本文をこのテンプレートの下に記載する形になります。&lt;br /&gt;
+また、記事タイトルは &lt;code&gt;hugo new xxx&lt;/code&gt; の際に指定したファイル名が適用されるのでこちらも必要に応じて修正します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+date = &amp;quot;2016-05-22T16:41:02+09:00&amp;quot;
+draft = true
+title = &amp;quot;hello world&amp;quot;
+
++++
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;本文作成後、プレビューを実行すると下記のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://38fanjia.github.com/images/20160830/hugo-article-created.png&#34; alt=&#34;記事作成時&#34; title=&#34;記事作成時&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;サイトのビルド&#34;&gt;サイトのビルド&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;% hugo -t hugo-zen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;テーマを指定してビルドを実行します。&lt;br /&gt;
+publicディレクトリが作成され、公開用のファイルが生成されていることが確認できます。&lt;br /&gt;
+これらのファイルは、Github Pagesなどにそのままアップして公開することが可能です。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moment.jsで日付を扱う</title>
+      <link>http://38fanjia.github.com/post/about-moment-js/</link>
+      <pubDate>Sat, 25 Jun 2016 16:45:19 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/about-moment-js/</guid>
+      <description>
+
+&lt;p&gt;とあるWebアプリを作ろうとしている中で、JavaScriptでもっと日付を楽に扱いたいと調べていて、 &lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt; というライブラリを知りました。&lt;/p&gt;
+
+&lt;p&gt;このMoment.jsについて紹介しているサイトは以前からあるので、最近できたものではないです。&lt;br /&gt;
+比較的最近の &lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/204982474-Moment-js-%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6-%E6%97%A5%E6%99%82%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%99%E3%82%8B&#34;&gt;Cybozuさんの記事&lt;/a&gt; を読んだのをきっかけに使ってみることにしました。&lt;/p&gt;
+
+&lt;h1 id=&#34;現在の日付を扱う&#34;&gt;現在の日付を扱う&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt; を参考にダウンロード、もしくはインストールをしてscriptタグで &lt;code&gt;moment.min.js&lt;/code&gt; を読み込みます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// momentオブジェクトの初期化
+var today = moment();
+
+// 日付の出力
+console.log(today.format());    // -&amp;gt; 2016-06-05T19:37:38+09:00
+
+// フォーマットを指定して出力
+console.log(today.format(&#39;LLLL&#39;));  // -&amp;gt; Sunday, June 5, 2016 7:54 PM
+
+// 年月日をそれぞれ出力
+console.log(&amp;quot;year: &amp;quot;, today.year());    // -&amp;gt; year:  2016
+console.log(&amp;quot;month: &amp;quot;, today.month());  // -&amp;gt; month:  5
+console.log(&amp;quot;date: &amp;quot;, today.date());    // -&amp;gt; date:  5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;moment().month()&lt;/code&gt; は、0から11の数字で帰ってくるため6月の場合は &lt;code&gt;5&lt;/code&gt; と返ってきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;日本語で出力する&#34;&gt;日本語で出力する&lt;/h1&gt;
+
+&lt;p&gt;上の手順と同様に、次は &lt;code&gt;moment-with-locales.min.js&lt;/code&gt; をscriptタグで読み込みます。&lt;br /&gt;
+Dateオブジェクトと比較して、この出力フォーマットの指定方法が一番楽だと感じました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// locale指定
+moment.locale(&#39;ja&#39;);
+
+// momentオブジェクトの初期化
+var today = moment();
+
+// フォーマットを指定して出力
+console.log(today.format(&#39;LLLL&#39;));  // -&amp;gt; 2016年6月5日午後7時54分 日曜日
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;特定の日付を設定&#34;&gt;特定の日付を設定&lt;/h1&gt;
+
+&lt;p&gt;日付の設定方法はいくつかあります。&lt;br /&gt;
+&lt;code&gt;moment()&lt;/code&gt; と括弧内で指定を行わなかった場合は現在日時で初期化が行われ、逆に括弧内で年月のみ指定された場合は1日で初期が行われます。そのため、上2つと下2つの結果が異なってきます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// locale指定
+moment.locale(&#39;ja&#39;);
+
+console.log(moment(new Date(2016, 6 -1)).format(&#39;LL&#39;));    // -&amp;gt; 2016年6月1日
+console.log(moment({year:2016, month:6 -1}).format(&#39;LL&#39;)); // -&amp;gt; 2016年6月1日
+console.log(moment().year(2016).month(6 -1).format(&#39;LL&#39;)); // -&amp;gt; 2016年6月5日
+console.log(moment().set(&#39;year&#39;,2016).set(&#39;month&#39;,6 -1).format(&#39;LL&#39;)); // -&amp;gt; 2016年6月5日
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;すべての使い方を把握した訳ではないけれど、便利そうだなと思ったものをいくつか。&lt;br /&gt;
+これら以外にも多くの関数が用意されている上に、タイムゾーンを扱うこともできるようです(タイムゾーンについては今回触れなかったので省略)。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// locale指定
+moment.locale(&#39;ja&#39;);
+
+// 指定した年月の日数を取得
+console.log(moment(new Date(2016, 2 -1)).daysInMonth());  // -&amp;gt; 29
+
+// 1月1日からの経過日数を取得
+console.log(moment(new Date(2016, 6 -1, 5)).dayOfYear());  // -&amp;gt; 157
+
+// 1月1日からの何週目か取得
+console.log(moment(new Date(2016, 6 -1, 5)).weeksInYear());  // -&amp;gt; 53
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>X-UA-Compatibleについて調べてみた</title>
+      <link>http://38fanjia.github.com/post/about-x-ua-compatible/</link>
+      <pubDate>Sat, 28 May 2016 16:44:00 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/about-x-ua-compatible/</guid>
+      <description>
+
+&lt;p&gt;今更ながらBootstrapの勉強を始めました。現在最新のBootstrap3です(4はαリリースのため)。&lt;br /&gt;
+公式サイトを参考にしていて、Basic templateに書かれているmetaタグが見慣れないものだったので、調べてみました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://getbootstrap.com/getting-started/&#34;&gt;Getting started · Bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;http-equiv&#34;&gt;http-equiv&lt;/h2&gt;
+
+&lt;p&gt;Mozillaの開発者向けの解説ページによると次のように記載されています。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;プラグマディレクティブ、つまりどのように Web ページを提供するかについて、通常 Web サーバから与えられる情報です。&lt;br /&gt;
+&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta&#34;&gt;meta 要素 - HTML | MDN&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;では、 &lt;code&gt;X-UA-Compatible&lt;/code&gt; は何かというと、Internet Explorerでどのバージョンのモードでレンダリングを行うか(ドキュメントモード)を指定することができるプラグマです。&lt;br /&gt;
+&lt;code&gt;IE=edge&lt;/code&gt; と指定することで、使用しているIEで利用可能なモードの中から、最高のモードを使用するように指示ができます。Internet Explorer 8 の場合はIE8モードに相当し、Internet Explorer 10 の場合はIE10モードに相当します。&lt;/p&gt;
+
+&lt;p&gt;ただし、 Internet Explorer 11 以降ではドキュメントモードの指定は推奨されず、Microsoft Edge では無視されるようになっているそうです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://msdn.microsoft.com/ja-jp/library/cc288325&#34;&gt;Internet Explorer 開発 &amp;gt; Internet Explorer 8 | ドキュメント互換性の定義&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://technet.microsoft.com/ja-jp/browser/mt126196&#34;&gt;IE の互換性を管理する - IT プロフェッショナル向けヒント | TechNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://msdn.microsoft.com/ja-jp/library/dn904497&#34;&gt;Microsoft Edge 開発者向けガイド | 互換性 (Windows)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;新しい記事ではないですが、 &lt;code&gt;X-UA-Compatible&lt;/code&gt; が何かを理解するためにこちらも参考にしました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://furoshiki.hatenadiary.jp/entry/2013/11/25/024250&#34;&gt;IE11のX-UA-Compatibleの使い方/動作仕様 - ふろしき.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.loconoco.info/?p=665&#34;&gt;IEに互換表示をさせないX-UA-Compatibleの指定 | loconoco&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>http://38fanjia.github.com/post/hello-world/</link>
+      <pubDate>Sun, 22 May 2016 16:41:02 +0900</pubDate>
+      
+      <guid>http://38fanjia.github.com/post/hello-world/</guid>
+      <description>&lt;p&gt;Github Pages + Hugo でブログを作成してみました。&lt;/p&gt;
+
+&lt;p&gt;インストールから記事公開までの記事はこちらが分かりやすかったので、細かい手順などの説明は省きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847&#34;&gt;Hugo + Github Pagesでブログを公開してみた - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ブログを自分で構築したいという思いがずっとあったけれど、独自構文が多いらしい WordPress を勉強する気にあまりなれずにいたところ、&lt;br /&gt;
+Jekyll や Hugo などを使って静的にブログを生成できることを知り、作ってみることにしました。&lt;br /&gt;
+とりあえずはシンプルな &lt;a href=&#34;https://github.com/rakuishi/hugo-zen&#34;&gt;hugo-zen&lt;/a&gt; というテーマを使ってみました。のちのちは、カスタマイズしたりテーマを作るなどしていきたいなあと思います。&lt;/p&gt;
+
+&lt;p&gt;ちなみに、タイトルにした &lt;code&gt;だれも見ていないと思って歌え&lt;/code&gt; はアイルランドのことわざから拝借しました。&lt;br /&gt;
+自分に足りないものかなと思って、一つの目標として。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dance as if no one&amp;rsquo;s watching, sing as if no one&amp;rsquo;s listening, and live everyday as if it were your last.&lt;br /&gt;
+だれも見ていないと思って踊れ。だれも聞いていないと思って歌え。あなたが最後の人だと思って、生きろ。&lt;br /&gt;
+&lt;a href=&#34;http://rainbowkids.sakura.ne.jp/eigodemeigen.html&#34;&gt;http://rainbowkids.sakura.ne.jp/eigodemeigen.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

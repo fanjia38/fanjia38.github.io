@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.18" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="だれも聞いていないと思って歌え">
+<title>querySelector と querySelectorAll - だれも聞いていないと思って歌え</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="/images/icon.jpg" width="60" height="60" alt="だれも聞いていないと思って歌え"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">querySelector と querySelectorAll</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-10-02">October 02, 2016</time></span>
+			<section itemprop="entry-text">
+				
+
+<p>改めて調べ直して整理してみた。</p>
+
+<h2 id="document-queryselector-と-document-queryselectorall">document.querySelector と document.querySelectorAll</h2>
+
+<p><code>document.querySelector</code> 、 <code>document.querySelectorAll</code> とは W3C によって定義された Selectors API の仕様です。
+jQuery のようにセレクターを指定して、要素を取得できるメソッドです。</p>
+
+<ul>
+<li><code>document.querySelector</code> &hellip; 指定された CSS セレクタにマッチする文書中の最初の要素を返す。</li>
+<li><code>document.querySelectorAll</code> &hellip; 指定された CSS セレクタにマッチする文書中の要素の全てのリストを返す。</li>
+</ul>
+
+<p>また、同様に文書中の要素を取得するメソッドとして下記があります。</p>
+
+<ul>
+<li><code>document.getElementById</code> &hellip; 指定されたIDを持つ要素を返す。</li>
+<li><code>document.getElementsByClassName</code> &hellip; 指定されたクラス名を持つ要素のリストを返す。</li>
+</ul>
+
+<hr />
+
+<p>下記のHTML文書を例に、これらの違いについてまとめます。</p>
+
+<pre><code>&lt;div class=&quot;news-box&quot;&gt;
+  &lt;h2&gt;NEWS&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;news&quot;&gt;news title 1&lt;/li&gt;
+    &lt;li&gt;topic title 2&lt;/li&gt;
+    &lt;li class=&quot;news&quot;&gt;news title 3&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;articles-box&quot;&gt;
+  &lt;h2&gt;ARTICLES&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;article&quot;&gt;article list 1&lt;/li&gt;
+    &lt;li&gt;article list 2&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="要素を一件だけ取得する">要素を一件だけ取得する</h2>
+
+<p>NEWSのnewsクラスではないリストの先頭の取得する場合、以下は同じ結果を取得することができます。
+<code>document.querySelector</code> を使わない場合、一行で書く方法が分かりませんでした・・・</p>
+
+<pre><code>const elements = document.getElementsByClassName('news-box')[0].getElementsByTagName('li');
+let elm = [];
+for(var i = 0; i &lt; elements.length; i++) {
+  if(elements[i].className !== 'news') {
+    elm.push(elements[i]);
+  }
+}
+const element = elm[0];
+
+&gt; &lt;li class=&quot;news&quot;&gt;news title 1&lt;/li&gt;
+</code></pre>
+
+<pre><code>document.querySelector('.news-box li:not(.news)');
+
+&gt; &lt;li class=&quot;news&quot;&gt;news title 1&lt;/li&gt;
+</code></pre>
+
+<p>ただし、単発のIDセレクタを指定する場合は <code>document.getElementById</code> の方が高速になります。</p>
+
+<h2 id="要素のリストを取得する">要素のリストを取得する</h2>
+
+<p>NEWSのnewsクラスのリストを取得する場合、以下は同じ結果を取得することができます。</p>
+
+<pre><code>document.getElementsByClassName('news-box')[0].getElementsByClassName('news');
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 1​&lt;/li&gt;​, &lt;li class=​&quot;news&quot;&gt;​news title 3​&lt;/li&gt;​]
+</code></pre>
+
+<pre><code>document.querySelectorAll('.news-box .news');
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 1​&lt;/li&gt;​, &lt;li class=​&quot;news&quot;&gt;​news title 3​&lt;/li&gt;​]
+</code></pre>
+
+<p>こちらも、単発のクラス名を指定する場合は <code>document.getElementsByClassName</code> の方が高速になります。</p>
+
+<h3 id="引数に配列を指定する">引数に配列を指定する</h3>
+
+<p>ちなみに、引数には配列が指定可能で、
+NEWSのnewsクラスのリスト と ARTICLESのarticleクラスのリスト のみを取得することができます。</p>
+
+<pre><code>document.querySelectorAll(['.news-box li.news', '.articles-box li:article']);
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 1​&lt;/li&gt;​, &lt;li class=​&quot;news&quot;&gt;​news title 3​&lt;/li&gt;​, &lt;li class=​&quot;article&quot;&gt;​article list 1​&lt;/li&gt;​]
+</code></pre>
+
+<h2 id="css-セレクタ">CSS セレクタ</h2>
+
+<p>これを知っておくと便利だなと思ったものについてまとめました。</p>
+
+<h3 id="not">:not()</h3>
+
+<p>上記例で使っていますが、引数で指定したセレクターの要素を除外します。</p>
+
+<pre><code>document.querySelectorAll('.news-box li:not(.news)');
+
+&gt; [&lt;li&gt;​topic title 2​&lt;/li&gt;​]
+</code></pre>
+
+<h3 id="first-child-last-child">:first-child, :last-child</h3>
+
+<p><code>:first-child</code> では最初の子要素を取得します。</p>
+
+<pre><code>document.querySelectorAll('.news-box li:first-child');
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 1​&lt;/li&gt;​]
+</code></pre>
+
+<p><del>ただし、 <code>document.querySelectorAll('.news-box li:not(.news):first-child')</code> と <strong>擬似クラスを複数組み合わせて使用することはできません</strong> 。</del>(後述します。)</p>
+
+<p><code>:last-child</code> は最後の子要素を取得できます。</p>
+
+<pre><code>document.querySelectorAll('.news-box li:last-child');
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 3​&lt;/li&gt;​]
+</code></pre>
+
+<h3 id="nth-child-nth-last-child">:nth-child(), :nth-last-child()</h3>
+
+<p>引数には子要素のn番目、偶数(even)、奇数(odd)などが指定可能です。</p>
+
+<pre><code>document.querySelectorAll('.news-box li:nth-child(odd)');
+
+&gt; [&lt;li class=​&quot;news&quot;&gt;​news title 1​&lt;/li&gt;​, &lt;li class=​&quot;news&quot;&gt;​news title 3​&lt;/li&gt;​]
+</code></pre>
+
+<p><code>:nth-last-child()</code> も同様に、最後の子要素から逆向きに数えてn番目、偶数(even)、奇数(odd)と指定できます。</p>
+
+<h3 id="擬似クラスを複数組み合わせる">擬似クラスを複数組み合わせる</h3>
+
+<p>上にあげた例と同じになりますが、NEWSのnewsクラスを除外したリストの先頭を取得しようと以下のように記述します。</p>
+
+<pre><code>document.querySelectorAll('.news-box li:not(.news):first-child');
+
+&gt; []
+</code></pre>
+
+<p>しかし、取得対象の <code>:first-child</code> が除外対象の <code>.news</code> であるため空の配列が返ってきます。
+<code>:nth-child()</code> を使うか <code>document.querySelector</code> で先頭の一件のみ取得する必要があります。</p>
+
+<p>また、下記のように <code>:not()</code> を複数繋げて使用することも可能です。</p>
+
+<pre><code>document.querySelectorAll('li:not(.news):not(.article)');
+
+&gt; [&lt;li&gt;​topic title 2​&lt;/li&gt;​, &lt;li&gt;​article list 2&lt;/li&gt;​]
+</code></pre>
+
+<h2 id="参考">参考</h2>
+
+<ul>
+<li><a href="https://developer.mozilla.org/ja/docs/Web/API/Document/querySelector">document.querySelector - Web API インターフェイス | MDN</a></li>
+<li><a href="https://developer.mozilla.org/ja/docs/Web/API/Document/querySelectorAll">document.querySelectorAll - Web API インターフェイス | MDN</a></li>
+<li><a href="http://www.coolwebwindow.com/csstips/cssbasic/000243.php">CSS3対応のCSSセレクタ一覧 - CSSデザインノート</a></li>
+</ul>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/38fanjia" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/38fanjia/" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">Copyright &copy; 38fanjia All rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

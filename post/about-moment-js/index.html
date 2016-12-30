@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.18" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="だれも聞いていないと思って歌え">
+<title>Moment.jsで日付を扱う - だれも聞いていないと思って歌え</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="/images/icon.jpg" width="60" height="60" alt="だれも聞いていないと思って歌え"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Moment.jsで日付を扱う</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-06-25">June 25, 2016</time></span>
+			<section itemprop="entry-text">
+				
+
+<p>とあるWebアプリを作ろうとしている中で、JavaScriptでもっと日付を楽に扱いたいと調べていて、 <a href="http://momentjs.com/">Moment.js</a> というライブラリを知りました。</p>
+
+<p>このMoment.jsについて紹介しているサイトは以前からあるので、最近できたものではないです。<br />
+比較的最近の <a href="https://cybozudev.zendesk.com/hc/ja/articles/204982474-Moment-js-%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6-%E6%97%A5%E6%99%82%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%99%E3%82%8B">Cybozuさんの記事</a> を読んだのをきっかけに使ってみることにしました。</p>
+
+<h1 id="現在の日付を扱う">現在の日付を扱う</h1>
+
+<p><a href="http://momentjs.com/">Moment.js</a> を参考にダウンロード、もしくはインストールをしてscriptタグで <code>moment.min.js</code> を読み込みます。</p>
+
+<pre><code>// momentオブジェクトの初期化
+var today = moment();
+
+// 日付の出力
+console.log(today.format());    // -&gt; 2016-06-05T19:37:38+09:00
+
+// フォーマットを指定して出力
+console.log(today.format('LLLL'));  // -&gt; Sunday, June 5, 2016 7:54 PM
+
+// 年月日をそれぞれ出力
+console.log(&quot;year: &quot;, today.year());    // -&gt; year:  2016
+console.log(&quot;month: &quot;, today.month());  // -&gt; month:  5
+console.log(&quot;date: &quot;, today.date());    // -&gt; date:  5
+</code></pre>
+
+<p><code>moment().month()</code> は、0から11の数字で帰ってくるため6月の場合は <code>5</code> と返ってきます。</p>
+
+<h1 id="日本語で出力する">日本語で出力する</h1>
+
+<p>上の手順と同様に、次は <code>moment-with-locales.min.js</code> をscriptタグで読み込みます。<br />
+Dateオブジェクトと比較して、この出力フォーマットの指定方法が一番楽だと感じました。</p>
+
+<pre><code>// locale指定
+moment.locale('ja');
+
+// momentオブジェクトの初期化
+var today = moment();
+
+// フォーマットを指定して出力
+console.log(today.format('LLLL'));  // -&gt; 2016年6月5日午後7時54分 日曜日
+</code></pre>
+
+<h1 id="特定の日付を設定">特定の日付を設定</h1>
+
+<p>日付の設定方法はいくつかあります。<br />
+<code>moment()</code> と括弧内で指定を行わなかった場合は現在日時で初期化が行われ、逆に括弧内で年月のみ指定された場合は1日で初期が行われます。そのため、上2つと下2つの結果が異なってきます。</p>
+
+<pre><code>// locale指定
+moment.locale('ja');
+
+console.log(moment(new Date(2016, 6 -1)).format('LL'));    // -&gt; 2016年6月1日
+console.log(moment({year:2016, month:6 -1}).format('LL')); // -&gt; 2016年6月1日
+console.log(moment().year(2016).month(6 -1).format('LL')); // -&gt; 2016年6月5日
+console.log(moment().set('year',2016).set('month',6 -1).format('LL')); // -&gt; 2016年6月5日
+</code></pre>
+
+<h1 id="最後に">最後に</h1>
+
+<p>すべての使い方を把握した訳ではないけれど、便利そうだなと思ったものをいくつか。<br />
+これら以外にも多くの関数が用意されている上に、タイムゾーンを扱うこともできるようです(タイムゾーンについては今回触れなかったので省略)。</p>
+
+<pre><code>// locale指定
+moment.locale('ja');
+
+// 指定した年月の日数を取得
+console.log(moment(new Date(2016, 2 -1)).daysInMonth());  // -&gt; 29
+
+// 1月1日からの経過日数を取得
+console.log(moment(new Date(2016, 6 -1, 5)).dayOfYear());  // -&gt; 157
+
+// 1月1日からの何週目か取得
+console.log(moment(new Date(2016, 6 -1, 5)).weeksInYear());  // -&gt; 53
+</code></pre>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/38fanjia" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/38fanjia/" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">Copyright &copy; 38fanjia All rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
