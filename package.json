@@ -1,0 +1,19 @@
+{
+  "name": "38fanjia.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/fanjia38/fanjia38.github.io.git",
+  "author": "fanjia38 <38fanjia@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
