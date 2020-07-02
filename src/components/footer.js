@@ -1,13 +1,12 @@
 const Footer = () => (
   <footer>
-    <p>Copyright (c) 2017 38fanjia.github.io</p>
+    <p>Copyright (c) 2017-2020 fanjia38.github.io</p>
 
     <style jsx>{`
     footer {
       width: 100%;
-      padding: 20px 0 30px;
-      background-color: #589738;
-      color: #fff;
+      font-size: 0.8rem;
+      border-top: 3px double #589738;
     }
 
     p {
