@@ -1,17 +1,5 @@
 const Contents = () => (
   <main>
-    <h2>APPS</h2>
-    <ul>
-      <li><a href="./apps/lunar-calendar/index.html">lunar calendar</a></li>
-      <li>作成中...</li>
-    </ul>
-
-    <h2>OTHERS</h2>
-    <ul>
-      <li><a href="https://twitter.com/38fanjia">twitter</a></li>
-      <li><a href="https://github.com/38fanjia">github</a></li>
-      <li><a href="https://38fanjia.hatenablog.com">hatenablog</a></li>
-    </ul>
 
     <style jsx>{`
     main {
