@@ -1,5 +1,8 @@
 import Head from 'next/head'
-import About from '../components/about'
+import { Center, Heading, Text } from "@chakra-ui/react"
+import Profile from '../components/profile'
+import Skills from '../components/skills'
+import Works from '../components/works'
 
 function Index() {
   return (
@@ -8,25 +11,15 @@ function Index() {
         <title>fanjia38.github.io</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
       </Head>
-      <About/>
-      <footer>
-        <p>Copyright (c) 2017-2021 fanjia38.github.io</p>
-
-        <style jsx>{`
-          footer {
-            width: 100%;
-            font-size: 0.8rem;
-            border-top: 3px double #589738;
-            margin-top: 300px;
-          }
-
-          p {
-            margin-top: 30px;
-            text-align: center;
-            letter-spacing: 1px;
-          }
-        `}</style>
-      </footer>
+      <Center>
+        <Heading m="8">Portfolio</Heading>
+      </Center>
+      <Profile />
+      <Skills/>
+      <Works />
+      <Center borderTop="3px double #589738" marginTop="100px">
+        <Text p="4" fontSize="sm">Copyright (c) 2017-2021 fanjia38.github.io</Text>
+      </Center>
     </>
   )
 }
