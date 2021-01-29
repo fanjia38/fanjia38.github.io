@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <section>
-        <h1>About</h1>
+        <h1>Portfolio</h1>
         <div>
           <h2>S.Iida(Fanjia) / Web Engineer</h2>
           <dl>
