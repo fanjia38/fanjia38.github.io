@@ -1,5 +1,4 @@
-import { Box, Heading, Container, Text } from "@chakra-ui/react"
-import Image from 'next/image'
+import { Box, Heading, Container, Text, Image } from "@chakra-ui/react"
 
 function Works() {
   return (
@@ -9,7 +8,7 @@ function Works() {
         <Box>
           <Heading size="sm">Portfolio</Heading>
           <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/portfolio_400.png" layout="intrinsic" width={400}
+            <Image alt="portfolio" src="/portfolio_400.png" width={400}
         height={280} />
           </Box>
           <Text fontSize="sm">ポートフォリオ / Next.js + TypeScript + ChakraUI</Text>
@@ -17,7 +16,7 @@ function Works() {
         <Box mt="4">
           <Heading size="sm">shuho</Heading>
           <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/shuho_400.png" layout="intrinsic" width={400}
+            <Image alt="portfolio" src="/shuho_400.png" width={400}
         height={280} />
           </Box>
           <Text fontSize="sm">週報 / Gatsby + TypeScript + Emotion</Text>
@@ -25,7 +24,7 @@ function Works() {
         <Box mt="4">
           <Heading size="sm">セント・パトリックス・デー・パレード一覧</Heading>
           <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/stpatricksday_400.png" layout="intrinsic" width={400}
+            <Image alt="portfolio" src="/stpatricksday_400.png" width={400}
         height={280} />
           </Box>
           <Text fontSize="sm">国内で開催されるセント・パトリックス・デー・パレード一覧 / Next.js + TypeScript + ChakraUI + GAS</Text>
