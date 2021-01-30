@@ -11,7 +11,7 @@ function Works() {
             <Image alt="portfolio" src="/portfolio_400.png" width={400}
         height={280} />
           </Box>
-          <Text fontSize="sm">ポートフォリオ / Next.js + TypeScript + ChakraUI</Text>
+          <Text fontSize="sm">ポートフォリオ / Next.js + ChakraUI</Text>
         </Box>
         <Box mt="4">
           <Heading size="sm">shuho</Heading>
