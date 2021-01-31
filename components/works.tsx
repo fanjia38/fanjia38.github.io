@@ -7,25 +7,22 @@ function Works() {
       <Container m="4">
         <Box>
           <Heading size="sm">Portfolio</Heading>
-          <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/portfolio_400.png" width={400}
-        height={280} />
+          <Box w="100%" maxWidth="400px" borderWidth="1px">
+            <Image alt="portfolio" src="/portfolio_400.png" width="100%"/>
           </Box>
           <Text fontSize="sm">ポートフォリオ / Next.js + ChakraUI</Text>
         </Box>
         <Box mt="4">
           <Heading size="sm">shuho</Heading>
-          <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/shuho_400.png" width={400}
-        height={280} />
+          <Box w="100%" maxWidth="400px" borderWidth="1px">
+            <Image alt="portfolio" src="/shuho_400.png" width="100%" />
           </Box>
           <Text fontSize="sm">週報 / Gatsby + TypeScript + Emotion</Text>
         </Box>
         <Box mt="4">
           <Heading size="sm">セント・パトリックス・デー・パレード一覧</Heading>
-          <Box w="400px" borderWidth="1px">
-            <Image alt="portfolio" src="/stpatricksday_400.png" width={400}
-        height={280} />
+          <Box w="100%" maxWidth="400px" borderWidth="1px">
+            <Image alt="portfolio" src="/stpatricksday_400.png" width="100%" />
           </Box>
           <Text fontSize="sm">国内で開催されるセント・パトリックス・デー・パレード一覧 / Next.js + TypeScript + ChakraUI + GAS</Text>
         </Box>
