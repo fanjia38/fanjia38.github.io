@@ -30,7 +30,12 @@ const backendData = {
 
 const options = {
   scale: {
-    ticks: { beginAtZero: true },
+    ticks: {
+      beginAtZero: true,
+      max: 5,
+      min: 0,
+      stepSize: 1
+    },
   },
 }
 
