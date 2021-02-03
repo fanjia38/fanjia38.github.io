@@ -15,11 +15,11 @@ const frontendData = {
 }
 
 const backendData = {
-  labels: ['PHP', 'SQL', 'Node.js', 'Perl', 'Shellscript'],
+  labels: ['Node.js', 'PHP', 'Symfony', 'FuelPHP', 'SQL'],
   datasets: [
     {
       label: 'Back-End',
-      data: [3, 3, 4, 2, 2],
+      data: [4, 3, 3, 3, 3],
       backgroundColor: 'rgba(104, 150, 79, 0.5)',
       borderColor: '#589738',
       borderWidth: 1,
