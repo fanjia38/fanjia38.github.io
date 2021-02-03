@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Container, Text, Image, List, ListItem } from "@chakra-ui/react"
+import { Box, Heading, Container, Text, Image, List, ListItem } from "@chakra-ui/react"
 
 // TODO: description の充実
 const workList = [
@@ -81,10 +81,10 @@ function Works() {
           <List spacing={3}>
             {workList.map((info, index) => (
               <ListItem marginBottom="8" key={index}>
-                <Flex marginBottom="2">
-                  <Heading size="md">{info.company}</Heading>
-                  <Text fontSize="sm">（{info.period}）</Text>
-                </Flex>
+                <Box marginBottom="2">
+                  <Heading size="md" display="inline-block">{info.company}</Heading>
+                  <Text fontSize="sm" display="inline-block">（{info.period}）</Text>
+                </Box>
                 <Text>{info.role}</Text>
                 {info.productList && (
                   <Box marginTop="4" marginLeft="4" p="4" borderWidth="1px" borderColor="silver" borderRadius="4px" backgroundColor="rgba(104, 150, 79, 0.1)">
