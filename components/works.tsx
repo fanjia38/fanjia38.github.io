@@ -87,7 +87,7 @@ function Works() {
                 </Box>
                 <Text>{info.role}</Text>
                 {info.productList && (
-                  <Box marginTop="4" marginLeft="4" p="4" borderWidth="1px" borderColor="silver" borderRadius="4px" backgroundColor="rgba(104, 150, 79, 0.1)">
+                  <Box marginTop="4" marginLeft="4" p="4" borderWidth="1px" borderColor="rgba(104, 150, 79, 0.5)" borderRadius="4px" backgroundColor="rgba(104, 150, 79, 0.1)">
                     <List>
                       {info.productList.map((service, sIndex) => (
                         <ListItem key={sIndex} marginBottom="4">
