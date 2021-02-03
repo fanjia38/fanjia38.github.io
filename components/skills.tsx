@@ -42,18 +42,18 @@ const options = {
 function Skills() {
   return (
     <Box marginBottom="8">
-      <Heading size="md" m="4" paddingLeft="2" borderLeft="4px solid #589738">Skills</Heading>
+      <Heading size="lg" m="4" paddingLeft="2" borderLeft="4px solid #589738">Skills</Heading>
       <Container m="4">
         <Box>
-          <Heading size="sm">Front-End</Heading>
+          <Heading size="md" marginBottom="2">Front-End</Heading>
           <Text>フロントエンドエンジニアとして経験3年。直近では React + Redux + TypeScript を使用。</Text>
-          <Text fontSize="sm">JavaScript / TypeScript / React(Hooks) / Redux / Styled Components / Webpack / Jest / HTML / CSS(Sass) / jQuery / Knockout.js</Text>
+          <Text fontSize="sm" marginBottom="4">JavaScript / TypeScript / React(Hooks) / Redux / Styled Components / Webpack / Jest / HTML / CSS(Sass) / jQuery / Knockout.js</Text>
           <Radar type="rader" data={frontendData} options={options} />
         </Box>
         <Box marginTop="8">
-          <Heading size="sm">Back-End</Heading>
+          <Heading size="md" marginBottom="2">Back-End</Heading>
           <Text>バックエンドエンジニアとして経験3年。</Text>
-          <Text fontSize="sm">Node.js / PHP(Symfony, FuelPHP, CakePHP) / SQL / Perl</Text>
+          <Text fontSize="sm" marginBottom="4">Node.js / PHP(Symfony, FuelPHP, CakePHP) / SQL / Perl</Text>
           <Radar type="rader" data={backendData} options={options} />
         </Box>
         <Box marginTop="8" borderWidth="1px" borderColor="silver" borderRadius="4px">

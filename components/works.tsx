@@ -75,14 +75,14 @@ const workList = [
 function Works() {
   return (
     <Box marginBottom="8">
-      <Heading size="md" m="4" paddingLeft="2" borderLeft="4px solid #589738">Works</Heading>
+      <Heading size="lg" m="4" paddingLeft="2" borderLeft="4px solid #589738">Works</Heading>
       <Container m="4" p="4">
         <Box>
           <List spacing={3}>
             {workList.map((info, index) => (
               <ListItem marginBottom="8" key={index}>
-                <Flex>
-                  <Heading size="sm">{info.company}</Heading>
+                <Flex marginBottom="2">
+                  <Heading size="md">{info.company}</Heading>
                   <Text fontSize="sm">（{info.period}）</Text>
                 </Flex>
                 <Text>{info.role}</Text>
