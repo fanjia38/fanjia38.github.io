@@ -46,14 +46,14 @@ function Skills() {
       <Container m="4">
         <Box>
           <Heading size="sm">Front-End</Heading>
+          <Text>フロントエンドエンジニアとして経験3年。直近では React + Redux + TypeScript を使用。</Text>
           <Text fontSize="sm">JavaScript / TypeScript / React(Hooks) / Redux / Styled Components / Webpack / Jest / HTML / CSS(Sass) / jQuery / Knockout.js</Text>
-          <Text fontSize="sm">フロントエンドエンジニアとして経験3年。直近では React + Redux + TypeScript を使用。</Text>
           <Radar type="rader" data={frontendData} options={options} />
         </Box>
         <Box marginTop="8">
           <Heading size="sm">Back-End</Heading>
-          <Text fontSize="sm">PHP(Symfony, FuelPHP, CakePHP) / SQL / Node.js / Perl</Text>
-          <Text fontSize="sm">バックエンドエンジニアとして経験3年。</Text>
+          <Text>バックエンドエンジニアとして経験3年。</Text>
+          <Text fontSize="sm">Node.js / PHP(Symfony, FuelPHP, CakePHP) / SQL / Perl</Text>
           <Radar type="rader" data={backendData} options={options} />
         </Box>
         <Box marginTop="8" borderWidth="1px" borderColor="silver" borderRadius="4px">

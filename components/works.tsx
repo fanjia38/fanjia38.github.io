@@ -31,18 +31,14 @@ const workList = [
   {
     company: '株式会社グローアップソリューションズ',
     period: '2014/10 - 2017/12',
-    role: 'Web エンジニア',
+    role: 'バックエンドエンジニア',
     productList: [
       {
-        name: '越境 EC サイトの開発',
+        name: '越境 EC サイトの開発、保守',
         description: '設計, 実装'
       },
       {
         name: 'ブラウザ向けソーシャルゲーム開発',
-        description: '設計, 実装'
-      },
-      {
-        name: '社内研修',
         description: '設計, 実装'
       }
     ]
@@ -80,7 +76,7 @@ function Works() {
   return (
     <Box marginBottom="8">
       <Heading size="md" m="4" paddingLeft="2" borderLeft="4px solid #589738">Works</Heading>
-      <Container m="4">
+      <Container m="4" p="4">
         <Box>
           <List spacing={3}>
             {workList.map((info, index) => (
@@ -91,11 +87,11 @@ function Works() {
                 </Flex>
                 <Text>{info.role}</Text>
                 {info.productList && (
-                  <Box marginTop="4" marginLeft="4" p="4" borderWidth="1px" borderColor="silver" borderRadius="4px">
+                  <Box marginTop="4" marginLeft="4" p="4" borderWidth="1px" borderColor="silver" borderRadius="4px" backgroundColor="rgba(104, 150, 79, 0.1)">
                     <List>
                       {info.productList.map((service, sIndex) => (
-                        <ListItem key={sIndex}>
-                          <Heading size="sm">{service.name}</Heading>
+                        <ListItem key={sIndex} marginBottom="4">
+                          <Heading size="sm" m="2" borderBottom="1px dashed rgba(104, 150, 79, 0.5)">{service.name}</Heading>
                           <Text fontSize="sm" marginLeft="2">{service.description}</Text>
                         </ListItem>
                       ))}
