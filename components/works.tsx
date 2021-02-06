@@ -8,12 +8,12 @@ const workList = [
     role: 'フロントエンドエンジニア / フロントエンドリーダー',
     productList: [
       {
-        name: 'Air ウェイト',
-        description: '要件定義, 設計, 実装'
+        name: '受付・順番待ち管理システム開発',
+        description: '新規機能の設計及び実装を行いました。前任からフロントエンドリーダーを引き継ぎ、1年がかりの大規模プロジェクトの要件定義から携わり、影響範囲を調査しながらバックエンド等の他チームと連携した全体設計や画面設計書の作成、開発スケジュールの作成と管理を行いました。'
       },
       {
-        name: 'Air リザーブ',
-        description: '設計, 実装'
+        name: '予約システム開発',
+        description: '新規機能の設計及び実装、印刷用ページの対応、不具合改修など、 CI のメンテナンスや E2E テストの保守を行いました。'
       }
     ]
   },
@@ -23,8 +23,8 @@ const workList = [
     role: 'Web エンジニア',
     productList: [
       {
-        name: 'sinclo',
-        description: '設計, 実装'
+        name: 'チャットボットツール開発',
+        description: '新規機能の管理画面の設計及び実装と、プレビュー画面の実装を行いました。'
       }
     ]
   },
@@ -35,11 +35,11 @@ const workList = [
     productList: [
       {
         name: '越境 EC サイトの開発、保守',
-        description: '設計, 実装'
+        description: '機能追加や不具合改修、Angular.js や Node.js を用いた新規案件の設計及び実装、運用保守に携わりました。'
       },
       {
         name: 'ブラウザ向けソーシャルゲーム開発',
-        description: '設計, 実装'
+        description: 'ソーシャルゲームの機能追加や新規開発、ヘルプページの設計及び実装、管理画面の改修を行いました。'
       }
     ]
   },
@@ -49,24 +49,20 @@ const workList = [
     role: 'ソフトウェア検証 / 組み込みエンジニア',
     productList: [
       {
-        name: 'システム評価検証',
-        description: '総合テストの実施'
-      },
-      {
         name: '組み込みブラウザ向け HTML コンテンツ開発',
-        description: '結合試験仕様書の設計と実施, 実装'
+        description: 'HTML/JavaScript による実装と、結合試験仕様書の設計及び実施を行いました。'
       },
       {
         name: 'UI コンテンツ開発',
-        description: '単体試験及び結合試験の設計及び実施, 実装'
+        description: 'STB 向けの UI コンテンツ実装と、単体試験及び結合試験の設計及び実施を行いました。'
       },
       {
         name: '組み込みブラウザ開発',
-        description: '単体試験及び結合試験の設計, ATS試験の実施'
+        description: '複合機に搭載した組み込みブラウザへの、単体試験及び結合試験の設計や ATS 試験の実施を行いました。'
       },
       {
-        name: '第三者検証',
-        description: 'システム評価業務, Webサイトテスト, 受け入れテスト'
+        name: 'システム評価検証',
+        description: 'システム評価業務に携わり、Webサイトテストや受け入れテストの実施を行いました。'
       }
     ]
   }
