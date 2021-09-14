@@ -19,7 +19,7 @@
     "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
     "chart.js": "^2.9.4",
     "framer-motion": "^3.2.2-rc.1",
-    "next": "^10.0.5",
+    "next": "^11.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
